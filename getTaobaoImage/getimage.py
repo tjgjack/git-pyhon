@@ -53,7 +53,7 @@ def gettaobaosource(url):
         # dic[str(n)] = item
         n += 1
     print(dic)
-    print(json.dumps(dic))
-    print(len(dic))
+    # print(json.dumps(dic))
+    # print(len(dic))
 
 gettaobaosource('https://item.taobao.com/item.htm?spm=a219r.lm874.14.240.324d0327duANFa&id=561707493365&ns=1&abbucket=5')
